@@ -2,7 +2,7 @@ Energys
 Piton
 # HotOnMik
 Hotspot sms authentecation, and mikrotik.
-
+---------------------------------
 # Components auth server
 Debian 9
 Freeradius 3.0.x
@@ -10,7 +10,7 @@ MariaDB (mysql)
 openvpn-server
 Apache 2.4
 php 7.0
-
+---------------------------------
 # Files auth server 
 db.php - file auth to mysql-server (MariaDB).
 login.php - file HTML auth and registration users on db, and auth on freeradius.
