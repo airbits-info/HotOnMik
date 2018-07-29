@@ -1,7 +1,4 @@
-
-
 <?php
-##Testing str
    $mac=$_POST['mac'];
    $ip=$_POST['ip'];
    $username=$_POST['username'];
@@ -70,11 +67,7 @@ td { font-size: 14px; color: #7A7A7A; }
 <table width="100%" style="margin-top: 10%;">
     <tr>
     <td align="center" valign="middle">
-        <div class="notice" style="color: #c1c1c1; font-size: 15px">Пожалуйста, пройдите авторизацию для доступа в интернет<br />
-        <div class="notice" style="color: #c1c1c1; font-size: 15px">или<br />
-        <div class="notice" style="color: #c1c1c1; font-size: 15px">введите номер телефона в поле регистрации, через СМС<br />
-
-
+        <div class="notice" style="color: #c1c1c1; font-size: 15px">Please log in or register via SMS<br />
 </div><br />
     <table width="240" height="100" style="border: 2px solid #cccccc; padding: 0px;" cellpadding="0" cellspacing="0">
     <tr>
@@ -85,10 +78,10 @@ td { font-size: 14px; color: #7A7A7A; }
             <input type="hidden" name="popup" value="true" />
 	<center><h2>Авторизация</h2></center>
             <table width="300" style="background-color: #ffffff">
-                <tr><td align="right" >Номер телефона</td>
+                <tr><td align="right" >Phone number</td>
                 <td><input style="width: 138px" value="7"name="username" type="text" value="<?php echo $username; ?>"/></td>
                 </tr>
-                <tr><td align="right">Код доступа</td>
+                <tr><td align="right">access code</td>
                 <td><input style="width: 80px" name="password" type="password"/></td>
                 </tr>
                 <tr><td> </td>
@@ -106,7 +99,7 @@ td { font-size: 14px; color: #7A7A7A; }
 	<form id="myForm" action="user.php" method="post">
 	    <table width="60" style="background-color: #ffffff">
 	<tr></tr>
-                <tr><td align="right">Номер телефона</td>
+                <tr><td align="right">Phone number</td>
                 <td><input style="width: 138px" name="mobileNumber" type="text" value="7" </td>
 	<td><br><button id="sub" type="submit">Send</button></td>
             </table>
