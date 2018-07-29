@@ -3,7 +3,7 @@ Piton
 # HotOnMik
 Hotspot sms authentecation, and mikrotik.
 
-# Componet auth server
+# Components auth server
 Debian 9
 Freeradius 3.0.x
 MariaDB (mysql)
