@@ -10,7 +10,7 @@ MariaDB (mysql)
 openvpn-server
 php 7.0
 
-# Files 
+# Files auth server 
 db.php - file auth to mysql-server (MariaDB).
 login.php - file HTML auth and registration users on db, and auth on freeradius.
 user.php - file sql query and sms send api.
