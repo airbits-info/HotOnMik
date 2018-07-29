@@ -8,6 +8,7 @@ Debian 9
 Freeradius 3.0.x
 MariaDB (mysql)
 openvpn-server
+Apache 2.4
 php 7.0
 
 # Files auth server 
